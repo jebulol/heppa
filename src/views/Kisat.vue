@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- eslint-disable-next-line vue/require-v-for-key -->
     <Kisa v-for="kisa in kisat" :key="kisa.id" :kisaMalli="kisa" />
   </div>
 </template>
