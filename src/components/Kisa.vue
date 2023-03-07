@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2>{{ raceModel.name }}</h2>
+    <h2>{{ kisaMalli.name }}</h2>
     <ul>
-      <li v-for="pony of raceModel.ponies" :key="pony.id">{{ pony.name }}</li>
+      <li v-for="poni of kisaMalli.ponit" :key="poni.id">{{ poni.name }}</li>
     </ul>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default defineComponent({
   name: 'Race',
 
   props: {
-    raceModel: {
+    kisaMalli: {
       type: Object as PropType<KisaMalli>,
       required: true
     }

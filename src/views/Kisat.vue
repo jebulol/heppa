@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Kisa v-for="kisa in kisat" :key="kisa.id" :raceModel="kisa" />
+    <Kisa v-for="kisa in kisat" :key="kisa.id" :kisaMalli="kisa" />
   </div>
 </template>
 
@@ -21,7 +21,7 @@ export default defineComponent({
       {
         id: 12,
         name: 'Vermo',
-        ponies: [
+        ponit: [
           { id: 1, name: 'Gentle Pie', color: 'YELLOW' },
           { id: 2, name: 'Big Soda', color: 'ORANGE' },
           { id: 3, name: 'Gentle Bottle', color: 'PURPLE' },
@@ -33,7 +33,7 @@ export default defineComponent({
       {
         id: 13,
         name: 'Killeri',
-        ponies: [
+        ponit: [
           { id: 6, name: 'Fast Rainbow', color: 'BLUE' },
           { id: 7, name: 'Gentle Castle', color: 'GREEN' },
           { id: 8, name: 'Awesome Rock', color: 'PURPLE' },

@@ -2,12 +2,12 @@ import { describe, expect, test } from 'vitest';
 import { mount } from '@vue/test-utils';
 import App from '@/App.vue';
 import Navbar from '@/components/Navbar.vue';
-import Races from '@/views/Races.vue';
+import Kisat from '@/views/Kisat.vue';
 
 describe('App.vue', () => {
   test('renders a title', () => {
     const wrapper = mount(App);
-    expect(wrapper.get('h1').text()).toBe('Ponyracer');
+    expect(wrapper.get('h1').text()).toBe('Poniralli');
   });
 
   test('renders the navbar', () => {
@@ -19,7 +19,7 @@ describe('App.vue', () => {
 
   test('renders the races list', () => {
     const wrapper = mount(App);
-    const races = wrapper.findComponent(Races);
+    const races = wrapper.findComponent(Kisat);
     // Maybe you forgot to add <Races/> in your App.vue component
     expect(races.exists()).toBe(true);
   });
