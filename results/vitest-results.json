@@ -1,14 +1,14 @@
 {
-  "numTotalTestSuites": 4,
-  "numPassedTestSuites": 4,
+  "numTotalTestSuites": 6,
+  "numPassedTestSuites": 6,
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
-  "numTotalTests": 2,
-  "numPassedTests": 2,
+  "numTotalTests": 5,
+  "numPassedTests": 5,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1678177170593,
+  "startTime": 1678181110332,
   "success": true,
   "testResults": [
     {
@@ -21,15 +21,35 @@
           "fullName": " Navbar.vue should toggle the class on click",
           "status": "passed",
           "title": "should toggle the class on click",
-          "duration": 42,
+          "duration": 46,
           "failureMessages": []
         }
       ],
-      "startTime": 1678177172234,
-      "endTime": 1678177172276,
+      "startTime": 1678181112233,
+      "endTime": 1678181112279,
       "status": "passed",
       "message": "",
       "name": "/Users/jesse/git/dev_crap/heppa/src/components/__tests__/Navbar.spec.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Kisat.vue"
+          ],
+          "fullName": " Kisat.vue should display every race name in a title",
+          "status": "passed",
+          "title": "should display every race name in a title",
+          "duration": 34,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1678181112238,
+      "endTime": 1678181112272,
+      "status": "passed",
+      "message": "",
+      "name": "/Users/jesse/git/dev_crap/heppa/src/views/__tests__/Kisat.spec.ts"
     },
     {
       "assertionResults": [
@@ -41,12 +61,32 @@
           "fullName": " App.vue renders a title",
           "status": "passed",
           "title": "renders a title",
-          "duration": 35,
+          "duration": 42,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " renders the navbar",
+          "status": "passed",
+          "title": "renders the navbar",
+          "duration": 11,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " renders the kisat list",
+          "status": "passed",
+          "title": "renders the kisat list",
+          "duration": 5,
           "failureMessages": []
         }
       ],
-      "startTime": 1678177172239,
-      "endTime": 1678177172274,
+      "startTime": 1678181112244,
+      "endTime": 1678181112302,
       "status": "passed",
       "message": "",
       "name": "/Users/jesse/git/dev_crap/heppa/src/__tests__/App.spec.ts"
