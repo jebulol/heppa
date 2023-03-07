@@ -5,6 +5,8 @@
   "compilerOptions": {
     "composite": true,
     "baseUrl": ".",
+    "importsNotUsedAsValues": "remove",
+    "preserveValueImports": false,
     "paths": {
       "@/*": ["./src/*"]
     }
