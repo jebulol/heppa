@@ -4,12 +4,12 @@
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
   "numTotalTests": 5,
-  "numPassedTests": 5,
-  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "numFailedTests": 1,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1678181110332,
-  "success": true,
+  "startTime": 1678190161938,
+  "success": false,
   "testResults": [
     {
       "assertionResults": [
@@ -21,35 +21,15 @@
           "fullName": " Navbar.vue should toggle the class on click",
           "status": "passed",
           "title": "should toggle the class on click",
-          "duration": 46,
+          "duration": 38,
           "failureMessages": []
         }
       ],
-      "startTime": 1678181112233,
-      "endTime": 1678181112279,
+      "startTime": 1678190163933,
+      "endTime": 1678190163971,
       "status": "passed",
       "message": "",
       "name": "/Users/jesse/git/dev_crap/heppa/src/components/__tests__/Navbar.spec.ts"
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": [
-            "",
-            "Kisat.vue"
-          ],
-          "fullName": " Kisat.vue should display every race name in a title",
-          "status": "passed",
-          "title": "should display every race name in a title",
-          "duration": 34,
-          "failureMessages": []
-        }
-      ],
-      "startTime": 1678181112238,
-      "endTime": 1678181112272,
-      "status": "passed",
-      "message": "",
-      "name": "/Users/jesse/git/dev_crap/heppa/src/views/__tests__/Kisat.spec.ts"
     },
     {
       "assertionResults": [
@@ -61,7 +41,7 @@
           "fullName": " App.vue renders a title",
           "status": "passed",
           "title": "renders a title",
-          "duration": 42,
+          "duration": 45,
           "failureMessages": []
         },
         {
@@ -71,7 +51,7 @@
           "fullName": " renders the navbar",
           "status": "passed",
           "title": "renders the navbar",
-          "duration": 11,
+          "duration": 8,
           "failureMessages": []
         },
         {
@@ -85,11 +65,37 @@
           "failureMessages": []
         }
       ],
-      "startTime": 1678181112244,
-      "endTime": 1678181112302,
+      "startTime": 1678190163946,
+      "endTime": 1678190164005,
       "status": "passed",
       "message": "",
       "name": "/Users/jesse/git/dev_crap/heppa/src/__tests__/App.spec.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Kisat.vue"
+          ],
+          "fullName": " Kisat.vue should display every race name in a title",
+          "status": "failed",
+          "title": "should display every race name in a title",
+          "duration": 38,
+          "failureMessages": [
+            "expected [] to have a length of 2 but got +0"
+          ],
+          "location": {
+            "line": 13,
+            "column": 29
+          }
+        }
+      ],
+      "startTime": 1678190207005,
+      "endTime": 1678190207043,
+      "status": "failed",
+      "message": "",
+      "name": "/Users/jesse/git/dev_crap/heppa/src/views/__tests__/Kisat.spec.ts"
     }
   ]
 }

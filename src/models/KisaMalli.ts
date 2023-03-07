@@ -1,3 +1,8 @@
+import { PoniMalli } from './PoniMalli';
+
 export interface KisaMalli {
-    nimi: string;
-  }
+  id: number;
+  name: string;
+  ponit: Array<PoniMalli>;
+  startInstant: string;
+}
