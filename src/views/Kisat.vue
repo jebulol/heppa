@@ -1,26 +1,26 @@
 <template>
   <div>
-    <Race v-for="race in races" :key="race.id" :raceModel="race" />
+    <Kisa v-for="kisa in kisat" :key="kisa.id" :raceModel="kisa" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-import { RaceModel } from '@/models/RaceModel';
-import Race from '@/components/Race.vue';
+import { KisaMalli } from '@/models/KisaMalli';
+import Kisa from '@/components/Kisa.vue';
 
 export default defineComponent({
-  name: 'Races',
+  name: 'Kisat',
 
   components: {
-    Race
+    Kisa
   },
 
   setup() {
-    const races = ref<Array<RaceModel>>([
+    const kisat = ref<Array<KisaMalli>>([
       {
         id: 12,
-        name: 'Paris',
+        name: 'Vermo',
         ponies: [
           { id: 1, name: 'Gentle Pie', color: 'YELLOW' },
           { id: 2, name: 'Big Soda', color: 'ORANGE' },
@@ -32,7 +32,7 @@ export default defineComponent({
       },
       {
         id: 13,
-        name: 'Tokyo',
+        name: 'Killeri',
         ponies: [
           { id: 6, name: 'Fast Rainbow', color: 'BLUE' },
           { id: 7, name: 'Gentle Castle', color: 'GREEN' },
@@ -43,7 +43,7 @@ export default defineComponent({
         startInstant: '2020-02-18T08:03:00Z'
       }
     ]);
-    return { races };
+    return { kisat };
   }
 });
 </script>

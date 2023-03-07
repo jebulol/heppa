@@ -9,14 +9,14 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
-import { RaceModel } from '@/models/RaceModel';
+import { KisaMalli } from '@/models/KisaMalli';
 
 export default defineComponent({
   name: 'Race',
 
   props: {
     raceModel: {
-      type: Object as PropType<RaceModel>,
+      type: Object as PropType<KisaMalli>,
       required: true
     }
   }
