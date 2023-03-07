@@ -1,16 +1,36 @@
 {
-  "numTotalTestSuites": 2,
-  "numPassedTestSuites": 2,
+  "numTotalTestSuites": 4,
+  "numPassedTestSuites": 4,
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
-  "numTotalTests": 1,
-  "numPassedTests": 1,
+  "numTotalTests": 2,
+  "numPassedTests": 2,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1678176117067,
+  "startTime": 1678177170593,
   "success": true,
   "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Navbar.vue"
+          ],
+          "fullName": " Navbar.vue should toggle the class on click",
+          "status": "passed",
+          "title": "should toggle the class on click",
+          "duration": 42,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1678177172234,
+      "endTime": 1678177172276,
+      "status": "passed",
+      "message": "",
+      "name": "/Users/jesse/git/dev_crap/heppa/src/components/__tests__/Navbar.spec.ts"
+    },
     {
       "assertionResults": [
         {
@@ -21,12 +41,12 @@
           "fullName": " App.vue renders a title",
           "status": "passed",
           "title": "renders a title",
-          "duration": 26,
+          "duration": 35,
           "failureMessages": []
         }
       ],
-      "startTime": 1678176118527,
-      "endTime": 1678176118553,
+      "startTime": 1678177172239,
+      "endTime": 1678177172274,
       "status": "passed",
       "message": "",
       "name": "/Users/jesse/git/dev_crap/heppa/src/__tests__/App.spec.ts"
